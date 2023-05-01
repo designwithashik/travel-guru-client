@@ -8,7 +8,7 @@ const Header = () => {
             <Box mr={{ lg: '80px' }} className="logo"><h1>Logo</h1></Box>
             <Input placeholder='Search your Destination..' width='270px' mr={{ lg: 'auto' }} type='search'></Input>
             <Flex mx={{ lg: '45px' }} gap='50px'>
-                <Link to='/news'>News</Link>
+                <Link to='/'>Home</Link>
                 <Link to='/destination'>Destination</Link>
                 <Link to='/blog'>Blog</Link>
                 <Link to='/contact'>Contact</Link>
